@@ -14,30 +14,30 @@ nav a {
 /*		width: 100%;*/
 		padding: 0.2rem;
 		margin: 0.1rem;
-		background: #ffbb76;
+		background: #A9BA9D;
 		border-radius: 0.1rem;
-		border: 1px solid #76baff;
-		color: darkcyan;
+		border: 1px solid #00693E;
+		color: #679267;
 	}
 
 nav a:visited {
-	color: darkcyan;
+	color: #679267;
 }
 
 nav a:hover {
-	color: #ffbb76;
-	background-color: #003d3d;
+	color: #679267;
+	background-color: #A9BA9D;
 }
 
 body {
 	 scrollbar-color: red orange;
   scrollbar-width: thin;
-/*	background: mediumpurple;*/
+/*	background: #A9BA9D;*/
 	background: linear-gradient(#e66465, #9198e5);
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	font-family: "Oswald", sans-serif;
+	font-family: "Mate", serif;
 /*	max-width: 900px;*/
 }
  section {
@@ -85,7 +85,7 @@ h1 {
 p {
 	font-family: "Nanum Gothic", sans-serif;
 	font-size: 1.2rem;
-	color: #474747;
+	color: #00563B;
 }
 
 li {
@@ -107,7 +107,7 @@ body img {
 }
 
 a:link {
-	color: red;
+	color: #00563B;
 }
 
 
@@ -116,7 +116,7 @@ a:link {
 }
 
 .text-highlight {
-	background: #b17200;
+	background: #A9BA9D;
 /*	color: #c4c4ff;*/
 	color: lightcyan;
 	padding-left: 1rem;
@@ -177,7 +177,7 @@ a:link {
 }
 
 footer a {
-	color: darkcyan;
+	color: #00693E;
 }
 
 
@@ -194,7 +194,7 @@ footer a {
 */
 @media (max-width:200px) {
 	body {
-		background: hotpink;
+		background: #00563B;
 	}
 	img {
 		max-width: 100%;
@@ -210,7 +210,7 @@ footer a {
 	}
 
 	p {
-		color: #d6d6d6;
+		color: #00563B;
 	}
 	nav {
 		display: flex;
@@ -231,19 +231,19 @@ footer a {
 		width: 100%;
 		padding: 0.2rem;
 		margin: 0.1rem;
-		background: #ffbb76;
+		background: #A9BA9D;
 		border-radius: 0.1rem;
-		border: 1px solid #76baff;
-		color: #003d3d;
+		border: 1px solid #00693E;
+		color: #679267;
 	}
 
 nav a:visited {
-	color: darkred;
+	color: #679267;
 	
 }
 
 nav a:link {
-	color: #003d3d;
+	color: #679267;
 
 }
 
@@ -260,8 +260,8 @@ section {
 
 	h1 {
 		font-size: 2rem;
-		background: #b17200;
-		color: skyblue;
+		background: #A9BA9D;
+		color: #00563B;
 		text-align: center;
 	}
 	img {
