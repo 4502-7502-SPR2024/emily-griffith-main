@@ -318,12 +318,12 @@ ul {
 
 @media (min-width: 769px) and (max-width:1000px) {
 	body {
-		background: lightcyan;
+		background: #faf0e6;
 	}
 }
 
 @media (min-width: 1001px)  {
  	body {
- 		background: #fff;
+ 		background: ##faf0e6;
 	}
 }
