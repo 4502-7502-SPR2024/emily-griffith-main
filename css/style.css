@@ -29,7 +29,43 @@ nav a:hover {
 	color: #679267;
 	background-color: #A9BA9D;
 }
+<head>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333; /* Background color of the menu */
+    }
 
+    li {
+      float: left; /* Display list items horizontally */
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px; /* Padding around each link */
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111; /* Background color on hover */
+    }
+  </style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#services">Services</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+
+</body>
 body {
 	 scrollbar-color: red orange;
   scrollbar-width: thin;
@@ -38,7 +74,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	font-family: "Mate", serif;
+	font-family: "Ojoju", sans-serif;
 /*	max-width: 900px;*/
 }
  section {
