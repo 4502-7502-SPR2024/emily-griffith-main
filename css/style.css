@@ -2,6 +2,7 @@ nav {
 
 	display: flex;
 	justify-content: center;
+	text-align: center;
 	text-transform: uppercase;
 	font-family: ;
 }
@@ -28,25 +29,57 @@ nav a:hover {
 	color: #679267;
 	background-color: #A9BA9D;
 }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333; /* Background color of the menu */
+    }
+
+    li {
+      float: left; /* Display list items horizontally */
+    }
+
+    li a {
+      display: flex;
+      color: white;
+      text-align: center;
+      padding: 14px 16px; /* Padding around each link */
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111; /* Background color on hover */
+    }
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="locationlist.html">Local shop list</a></li>
+  <li><a href="list.html">Booklist</a></li>
+</ul>
 
 body {
 	 scrollbar-color: red orange;
   scrollbar-width: thin;
-/*	background: #A9BA9D;*/
-	background: linear-gradient(#e66465, #9198e5);
+/*	background: #faf0e6;*/
+	background: linear-gradient(#faf0e6, #eed9c4);
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	font-family: "Mate", serif;
+	font-family: "Ojoju", sans-serif;
 /*	max-width: 900px;*/
 }
  section {
 
- 	margin: 0.1rem;
+ 	margin: 0 rem;
  }
 
 main {
 	display: flex;
+	display: flex;
+	justify-content: center;
+	text-align: center;
 
 }
 
@@ -65,8 +98,9 @@ title {
 h1 {
 	display: flex;
 	justify-content: center;
-	font-family: "Oswald", sans-serif;
+	font-family: "Roboto Condensed", sans-serif;
 	font-size: 4rem;
+	color: #3b2008
 	
 }
 
@@ -83,9 +117,9 @@ h1 {
 }
 
 p {
-	font-family: "Nanum Gothic", sans-serif;
+	font-family: "Ojoju", sans-serif;
 	font-size: 1.2rem;
-	color: #00563B;
+	color: #5e503f;
 }
 
 li {
@@ -95,19 +129,19 @@ li {
 }
 
 img {
-	max-width: 100%;
+	max-width: 50%;
 	padding: 5px;
-	margin: 5px;
+	margin: 2px;
 
 }
 
 body img {
-/*	max-width: 10rem;*/
+/*	max-width: 5rem;*/
 
 }
 
 a:link {
-	color: #00563B;
+	color: #5e503f;
 }
 
 
@@ -177,7 +211,7 @@ a:link {
 }
 
 footer a {
-	color: #00693E;
+	color: #3b2008;
 }
 
 
@@ -316,12 +350,12 @@ ul {
 
 @media (min-width: 769px) and (max-width:1000px) {
 	body {
-		background: lightcyan;
+		background: #faf0e6;
 	}
 }
 
 @media (min-width: 1001px)  {
  	body {
- 		background: #fff;
+ 		background: ##faf0e6;
 	}
 }
