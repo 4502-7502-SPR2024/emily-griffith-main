@@ -34,7 +34,7 @@ nav a:hover {
       margin: 0;
       padding: 0;
       overflow: hidden;
-      background-color: #faf0e6; /* Background color of the menu */
+      background-color: ; /* Background color of the menu */
     }
 
     li {
@@ -60,7 +60,7 @@ nav a:hover {
 </ul>
 
 body {
-	 scrollbar-color: red orange;
+	 scrollbar-color: #9c7171;
   scrollbar-width: thin;
 /*	background: #faf0e6;*/
 	background: linear-gradient(#faf0e6, #eed9c4);
