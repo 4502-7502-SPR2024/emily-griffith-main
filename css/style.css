@@ -15,26 +15,26 @@ nav a {
 /*		width: 100%;*/
 		padding: 0.2rem;
 		margin: 0.1rem;
-		background: #A9BA9D;
+		background: #ce9c9c	;
 		border-radius: 0.1rem;
-		border: 1px solid #00693E;
-		color: #679267;
+		border: 1px solid #ce9c9c	;
+		color: #8b6767;
 	}
 
 nav a:visited {
-	color: #679267;
+	color: #9c7171;
 }
 
 nav a:hover {
-	color: #679267;
-	background-color: #A9BA9D;
+	color: #8b6767;
+	background-color: #ba8888;
 }
     ul {
       list-style-type: none;
       margin: 0;
       padding: 0;
       overflow: hidden;
-      background-color: #333; /* Background color of the menu */
+      background-color: #faf0e6; /* Background color of the menu */
     }
 
     li {
@@ -54,7 +54,7 @@ nav a:hover {
     }
 
 <ul>
-  <li><a href="index.html">Home</a></li>
+  <li><a href="oldindex.html">Home</a></li>
   <li><a href="locationlist.html">Local shop list</a></li>
   <li><a href="list.html">Booklist</a></li>
 </ul>
