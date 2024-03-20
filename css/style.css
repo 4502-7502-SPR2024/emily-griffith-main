@@ -228,7 +228,7 @@ footer a {
 */
 @media (max-width:200px) {
 	body {
-		background: #00563B;
+		background: #faf0e6;
 	}
 	img {
 		max-width: 100%;
@@ -239,7 +239,7 @@ footer a {
 @media (min-width: 201px) and (max-width:575px) {
 	body {
 		
-		background: darkcyan;
+		background: #faf0e6;
 
 	}
 
@@ -343,7 +343,7 @@ ul {
 
 @media (min-width: 576px) and (max-width:768px) {
 	body {
-		background: linear-gradient(#e66465, #9198e5);
+		background: linear-gradient(#faf0e6, #eed9c4);
 	}
 }
 
